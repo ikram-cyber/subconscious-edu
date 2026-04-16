@@ -11,15 +11,12 @@
         body { font-family: 'Montserrat', sans-serif; background-color: #030303; }
         .font-luxury { font-family: 'Playfair Display', serif; }
         .gold-text { background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); -webkit-background-clip: text; color: transparent; }
-        .luxury-border { border: 1px solid rgba(212, 175, 55, 0.3); }
-        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); }
-        .btn-luxury { background: linear-gradient(135deg, #bf953f 0%, #aa771c 100%); color: #000; transition: all 0.5s ease; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); }
+        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); border: 1px solid rgba(212, 175, 55, 0.2); }
+        .btn-luxury { background: linear-gradient(135deg, #bf953f 0%, #aa771c 100%); color: #000; transition: all 0.5s ease; }
         .btn-luxury:hover { background: linear-gradient(135deg, #fcf6ba 0%, #bf953f 100%); transform: translateY(-2px); }
-        .ambient-glow { position: fixed; width: 100vw; height: 100vh; background: radial-gradient(circle at 50% -10%, rgba(212,175,55,0.08) 0%, rgba(0,0,0,0) 60%); z-index: -1; top: 0; left: 0; pointer-events: none; }
     </style>
 </head>
-<body class="text-slate-300 antialiased pb-20 selection:bg-yellow-600/30 relative z-0">
-    <div class="ambient-glow"></div>
+<body class="text-slate-300 antialiased pb-20 selection:bg-yellow-600/30">
     <main class="max-w-md mx-auto px-6 pt-16 space-y-10">
         
         <div class="text-center space-y-4">
@@ -38,7 +35,7 @@
             <div class="w-12 h-[1px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto mt-4"></div>
         </div>
 
-        <div class="luxury-card border border-[#d4af37]/30 rounded-2xl p-6 relative overflow-hidden">
+        <div class="luxury-card rounded-2xl p-6 relative overflow-hidden">
             <div class="absolute -right-4 -top-4 opacity-10 text-8xl"><i class="fas fa-water"></i></div>
             <h2 class="font-luxury text-white text-lg mb-3 flex items-center gap-2">
                 <i class="fas fa-caret-right text-[#d4af37]"></i> Teori Gunung Es
@@ -76,7 +73,7 @@
             </div>
         </div>
 
-        <div class="luxury-card border border-slate-800 rounded-2xl p-6 mt-8">
+        <div class="luxury-card rounded-2xl p-6 mt-8">
             <h2 class="font-luxury text-[#d4af37] text-lg mb-3">Bagaimana Audio Bekerja?</h2>
             <p class="text-[11px] text-slate-300 font-light leading-relaxed text-justify mb-4">
                 Melalui fenomena ilmiah bernama <strong>Brainwave Entrainment</strong>, otak manusia akan secara otomatis menyelaraskan frekuensinya dengan suara yang didengar.
@@ -87,15 +84,9 @@
         </div>
 
         <div class="pt-8 text-center border-t border-[#d4af37]/20">
-            <h3 class="font-luxury text-white text-xl mb-2">Siap Meretas Pikiran Anda?</h3>
-            <p class="text-[10px] text-slate-400 mb-6">Rasakan sendiri kekuatan sinkronisasi gelombang otak.</p>
-            
+            <h3 class="font-luxury text-white text-xl mb-4">Siap Meretas Pikiran Anda?</h3>
             <a href="https://ikram-cyber.github.io/audio-hub" class="btn-luxury block w-full py-4 rounded-xl font-bold text-xs uppercase tracking-[0.2em] flex items-center justify-center gap-3">
-                <i class="fas fa-headphones"></i> Dapatkan Audio Theta Sekarang
-            </a>
-            
-            <a href="https://ikram-cyber.github.io/master-hub" class="block mt-6 text-[10px] text-slate-500 hover:text-[#d4af37] transition-colors uppercase tracking-widest">
-                <i class="fas fa-home mr-1"></i> Kembali ke Master Hub
+                <i class="fas fa-headphones"></i> Dapatkan Audio Sekarang
             </a>
         </div>
 
